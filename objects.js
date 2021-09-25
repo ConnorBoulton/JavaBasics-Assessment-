@@ -75,9 +75,9 @@ console.log(me.greeter())
 
 function carFactory(make, model, year){
   const car = {
-      make1: make,
-      model1: model,
-      year1: year,
+      make: make,
+      model: model,
+      year: year,
   }
   if (year > 2018){
       car['isNew'] = true;
